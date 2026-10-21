@@ -1,0 +1,6 @@
+{
+  "name": "Hayat — Universal Everyday Life Companion",
+  "description": "Essential daily life companion for everyday people worldwide — Bengali, Arabic, English and beyond. Daily routine habits, hydration, budget tracking, guided breathing, world time rhythm, and emergency tools.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "/",
+  "name": "Hayat — Universal Everyday Life Companion",
+  "short_name": "Hayat",
+  "description": "Essential daily life companion for everyday people worldwide — Daily routine habits, hydration, budget tracking, guided breathing, Islamic prayer times, and emergency tools.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0c0a09",
+  "theme_color": "#1c1917",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/logo.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any"
+    }
+  ]
+}

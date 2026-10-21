@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1c1917" />
+      <stop offset="100%" stop-color="#0c0a09" />
+    </linearGradient>
+    <linearGradient id="crescentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fde68a" />
+      <stop offset="50%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+    <linearGradient id="leafGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34d399" />
+      <stop offset="60%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#047857" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background rounded squircle -->
+  <rect width="512" height="512" rx="128" fill="url(#bgGrad)" />
+
+  <!-- Outer Golden Crescent -->
+  <path d="M 310,130 C 220,130 148,202 148,292 C 148,370 203,435 278,451 C 218,435 174,380 174,314 C 174,236 236,172 314,172 C 342,172 368,180 390,195 C 367,155 321,130 310,130 Z" fill="url(#crescentGrad)" />
+
+  <!-- Emerald Morning Leaf inside Crescent -->
+  <path d="M 370,180 C 270,200 240,290 240,360 C 310,360 390,320 400,220 C 390,200 380,188 370,180 Z" fill="url(#leafGrad)" />
+
+  <!-- Leaf Center Vein -->
+  <path d="M 240,360 Q 320,280 370,180" stroke="#064e3b" stroke-width="8" stroke-linecap="round" fill="none" opacity="0.6" />
+  <path d="M 285,315 Q 315,315 340,330" stroke="#064e3b" stroke-width="6" stroke-linecap="round" fill="none" opacity="0.5" />
+  <path d="M 315,270 Q 345,265 375,275" stroke="#064e3b" stroke-width="6" stroke-linecap="round" fill="none" opacity="0.5" />
+</svg>
